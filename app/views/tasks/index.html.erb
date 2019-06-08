@@ -5,6 +5,8 @@
         <li>
             <p><%= link_to task.id, task_path(task) %> 
             :
+            <%= task.status %>
+            &gt;
             <%= task.content %></p>
         </li>
     <% end %>
